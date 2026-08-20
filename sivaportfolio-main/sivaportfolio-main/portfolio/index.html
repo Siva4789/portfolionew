@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siva P | AI Full Stack Developer | Portfolio</title>
+    <meta name="description" content="Portfolio of Siva P - AI Full Stack Developer specializing in Java, Spring Boot, Python, FastAPI, React, JDBC, and modern database architectures.">
+    <meta name="keywords" content="Siva P, Full Stack Developer, AI Developer, Java, Spring Boot, FastAPI, React, MySQL, MongoDB, Salem India">
+    <meta name="author" content="Siva P">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Animated Mesh Glows -->
+    <div class="bg-mesh" aria-hidden="true">
+        <div class="mesh-blob blob-1"></div>
+        <div class="mesh-blob blob-2"></div>
+        <div class="mesh-blob blob-3"></div>
+        <div class="bg-grid"></div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header id="navbar">
+        <nav class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-icon"><i class="fa-solid fa-code"></i></span>
+                <span class="logo-text">Siva<span class="logo-accent">.dev</span></span>
+            </a>
+
+            <div class="nav-links-wrapper" id="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active"><i class="fa-solid fa-house"></i> <span>Home</span></a></li>
+                    <li><a href="#about" class="nav-link"><i class="fa-solid fa-user"></i> <span>About</span></a></li>
+                    <li><a href="#experience" class="nav-link"><i class="fa-solid fa-briefcase"></i> <span>Experience</span></a></li>
+                    <li><a href="#skills" class="nav-link"><i class="fa-solid fa-laptop-code"></i> <span>Skills</span></a></li>
+                    <li><a href="#projects" class="nav-link"><i class="fa-solid fa-cubes"></i> <span>Projects</span></a></li>
+                    <li><a href="#certifications" class="nav-link"><i class="fa-solid fa-award"></i> <span>Certificates</span></a></li>
+                    <li><a href="#contact" class="nav-link"><i class="fa-solid fa-envelope"></i> <span>Contact</span></a></li>
+                </ul>
+            </div>
+
+            <div class="nav-actions">
+                <!-- Theme Switcher -->
+                <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme" title="Switch Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+                <!-- Direct Resume Button in Nav -->
+                <a href="SIVA P RESUME.pdf" download="Siva_P_Resume.pdf" class="btn btn-outline btn-sm nav-resume-btn" target="_blank">
+                    <i class="fa-solid fa-file-arrow-down"></i> <span>Resume</span>
+                </a>
+
+                <!-- Mobile Hamburger -->
+                <button id="mobile-toggle" class="mobile-toggle" aria-label="Open mobile menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="status-pill animate-fade-in">
+                        <span class="status-dot"></span>
+                        <span>Available for Full-time & Internship Roles</span>
+                    </div>
+
+                    <h1 class="hero-title animate-fade-in">
+                        Hi, I'm <span class="gradient-text">Siva P</span>
+                    </h1>
+
+                    <div class="hero-subtitle-container animate-fade-in">
+                        <span class="typed-prefix">I am an </span>
+                        <span id="typed-text" class="typed-text gradient-accent-text"></span>
+                        <span class="cursor">&nbsp;</span>
+                    </div>
+
+                    <p class="hero-desc animate-fade-in">
+                        Full Stack Developer with strong expertise in <strong>Java, Spring Boot, Python, and FastAPI</strong> alongside hands-on frontend development. Passionate about building scalable, high-performance applications, designing optimized database architectures, and leveraging AI-powered development tools.
+                    </p>
+
+                    <div class="hero-cta-group animate-fade-in">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>Explore Projects</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="SIVA P RESUME.pdf" download="Siva_P_Resume.pdf" class="btn btn-glass" target="_blank">
+                            <i class="fa-solid fa-download"></i>
+                            <span>Download Resume</span>
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fa-solid fa-paper-plane"></i>
+                            <span>Get in Touch</span>
+                        </a>
+                    </div>
+
+                    <!-- Social Icons Strip -->
+                    <div class="hero-socials animate-fade-in">
+                        <span class="socials-label">Connect:</span>
+                        <a href="https://github.com/Siva4789" target="_blank" rel="noopener noreferrer" class="social-icon" title="GitHub Profile">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/siva-p-s04" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn Profile">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:siva03286@gmail.com" class="social-icon" title="Send Email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a href="tel:+919655247872" class="social-icon" title="Call Phone">
+                            <i class="fa-solid fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual animate-fade-in">
+                    <div class="profile-card-glow">
+                        <div class="profile-card">
+                            <div class="profile-img-wrap">
+                                <img src="IMAGES/siva.jpg" alt="Siva P - AI Full Stack Developer" class="hero-avatar">
+                                <div class="avatar-ring"></div>
+                            </div>
+                            <div class="profile-card-info">
+                                <h3>Siva P</h3>
+                                <p class="card-role"><i class="fa-solid fa-brain"></i> AI Fullstack Developer</p>
+                                <div class="profile-location">
+                                    <i class="fa-solid fa-location-dot"></i> Salem, Tamil Nadu, India
+                                </div>
+                            </div>
+                            <div class="profile-card-stats">
+                                <div class="stat-mini">
+                                    <span class="stat-mini-val">7.84</span>
+                                    <span class="stat-mini-lbl">CGPA (B.Tech)</span>
+                                </div>
+                                <div class="stat-mini-divider"></div>
+                                <div class="stat-mini">
+                                    <span class="stat-mini-val">4+</span>
+                                    <span class="stat-mini-lbl">Certifications</span>
+                                </div>
+                                <div class="stat-mini-divider"></div>
+                                <div class="stat-mini">
+                                    <span class="stat-mini-val">2026</span>
+                                    <span class="stat-mini-lbl">Springreen Intern</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Floating Tech Badges around Card -->
+                        <div class="floating-badge badge-java" title="Java">
+                            <i class="fa-brands fa-java"></i>
+                            <span>Spring Boot</span>
+                        </div>
+                        <div class="floating-badge badge-react" title="React.js">
+                            <i class="fa-brands fa-react"></i>
+                            <span>React.js</span>
+                        </div>
+                        <div class="floating-badge badge-python" title="Python & FastAPI">
+                            <i class="fa-brands fa-python"></i>
+                            <span>FastAPI</span>
+                        </div>
+                        <div class="floating-badge badge-db" title="Databases">
+                            <i class="fa-solid fa-database"></i>
+                            <span>MySQL & Mongo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Metrics Banner -->
+            <div class="container hero-metrics-wrap">
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="metric-data">
+                            <h4>B.Tech in IT</h4>
+                            <p>DGCT (2022 - 2026) | CGPA 7.84</p>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon"><i class="fa-solid fa-briefcase"></i></div>
+                        <div class="metric-data">
+                            <h4>Software Dev Intern</h4>
+                            <p>Springreen (May 2026 – July 2026)</p>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon"><i class="fa-solid fa-layer-group"></i></div>
+                        <div class="metric-data">
+                            <h4>Fullstack & AI</h4>
+                            <p>Java, Spring, FastAPI, React & AI Tools</p>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon"><i class="fa-solid fa-certificate"></i></div>
+                        <div class="metric-data">
+                            <h4>Certified Engineer</h4>
+                            <p>NPTEL, Infosys & LinkedIn Certified</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge"><i class="fa-solid fa-id-card"></i> About Me</span>
+                    <h2 class="section-title">Bridging Innovation with <span class="gradient-text">Scalable Code</span></h2>
+                    <p class="section-subtitle">Dedicated Full Stack Developer with an AI-first mindset, building robust backend engines and sleek digital experiences.</p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-bio-card glass-card">
+                        <h3>Professional Overview</h3>
+                        <p>
+                            I am <strong>Siva P</strong>, an <strong>AI Fullstack Developer</strong> completing my <strong>B.Tech in Information Technology</strong> at Dhirajlal Gandhi College of Technology.
+                        </p>
+                        <p>
+                            My development focus centers on architecting scalable web applications, designing reliable RESTful APIs, and implementing clean object-oriented code. With practical experience in <strong>Java, Spring Boot, JDBC, Python, FastAPI, and React.js</strong>, combined with multi-database proficiency in <strong>MySQL, PostgreSQL, and MongoDB</strong>, I bridge frontend user needs with resilient backend systems.
+                        </p>
+                        <p>
+                            I actively harness specialized AI development workflows (using Claude, ChatGPT, Gemini, Antigravity, and Cursor) to accelerate iteration speed, maintain strict clean-coding standards, and solve complex software problems efficiently.
+                        </p>
+
+                        <div class="about-highlights">
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Clean & Maintainable OOP Architecture</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>High-Performance REST API Engineering</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>Optimized SQL & NoSQL Database Queries</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-circle-check"></i>
+                                <span>AI-Augmented Development & Rapid Delivery</span>
+                            </div>
+                        </div>
+
+                        <div class="about-action-row">
+                            <a href="#contact" class="btn btn-primary btn-sm"><i class="fa-solid fa-handshake"></i> Let's Collaborate</a>
+                            <a href="SIVA P RESUME.pdf" download="Siva_P_Resume.pdf" class="btn btn-outline btn-sm"><i class="fa-solid fa-file-pdf"></i> Download Resume</a>
+                        </div>
+                    </div>
+
+                    <!-- Education Cards Column -->
+                    <div class="about-edu-column">
+                        <div class="edu-card glass-card featured-edu">
+                            <div class="edu-icon"><i class="fa-solid fa-university"></i></div>
+                            <div class="edu-body">
+                                <span class="edu-year">2022 — 2026</span>
+                                <h4>Bachelor of Technology in IT</h4>
+                                <h5>Dhirajlal Gandhi College of Technology</h5>
+                                <p class="edu-desc">Salem, Tamil Nadu. Focused on Software Engineering, Database Systems, Object-Oriented Programming, and Web Architectures.</p>
+                                <div class="edu-score-pill">
+                                    <i class="fa-solid fa-chart-line"></i> CGPA: <strong>7.84 / 10</strong>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="edu-card glass-card">
+                            <div class="edu-icon"><i class="fa-solid fa-school"></i></div>
+                            <div class="edu-body">
+                                <span class="edu-year">2020 — 2022</span>
+                                <h4>Higher Secondary Certificate (HSC)</h4>
+                                <h5>Glazebrooke Matric Higher Secondary School</h5>
+                                <p class="edu-desc">Mathematics & Computer Science focus with foundational programming principles.</p>
+                                <div class="edu-score-pill">
+                                    <i class="fa-solid fa-percentage"></i> Score: <strong>76%</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience / Internship Section -->
+        <section id="experience" class="section section-darker">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge"><i class="fa-solid fa-briefcase"></i> Experience</span>
+                    <h2 class="section-title">Industry <span class="gradient-text">Experience</span></h2>
+                    <p class="section-subtitle">Real-world software engineering contributions and collaborative agile development.</p>
+                </div>
+
+                <div class="timeline-container">
+                    <div class="timeline-card glass-card">
+                        <div class="timeline-header">
+                            <div class="timeline-title-wrap">
+                                <div class="company-logo-placeholder">
+                                    <i class="fa-solid fa-seedling"></i>
+                                </div>
+                                <div>
+                                    <h3 class="timeline-role">Software Development Intern</h3>
+                                    <h4 class="timeline-company"><i class="fa-regular fa-building"></i> Springreen</h4>
+                                </div>
+                            </div>
+                            <div class="timeline-badge-group">
+                                <span class="badge badge-primary"><i class="fa-regular fa-calendar"></i> May 2026 – July 2026</span>
+                                <span class="badge badge-success"><i class="fa-solid fa-location-dot"></i> Internship</span>
+                            </div>
+                        </div>
+
+                        <p class="timeline-intro">
+                            Contributed to the design and development of scalable web applications and usable products, delivering robust backend capabilities and reliable system integrations.
+                        </p>
+
+                        <div class="timeline-responsibilities">
+                            <h5>Key Contributions & Impact:</h5>
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                    <span><strong>RESTful API Development:</strong> Designed, developed, and integrated high-throughput REST APIs and business logic using <strong>Python</strong> and <strong>FastAPI</strong>.</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                    <span><strong>Database Management:</strong> Managed document schemas and optimized query operations with <strong>MongoDB</strong> for smooth data flow between frontend and backend layers.</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                    <span><strong>Seamless Communication:</strong> Built unified interface contracts ensuring responsive end-to-end communication with web clients.</span>
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                    <span><strong>Code Quality & Agile:</strong> Followed strict clean code conventions, Git version control, branch management, unit testing, debugging, and performance optimization in team sprints.</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="timeline-tech-stack">
+                            <span class="tech-tag"><i class="fa-brands fa-python"></i> Python</span>
+                            <span class="tech-tag"><i class="fa-solid fa-bolt"></i> FastAPI</span>
+                            <span class="tech-tag"><i class="fa-solid fa-database"></i> MongoDB</span>
+                            <span class="tech-tag"><i class="fa-solid fa-network-wired"></i> RESTful APIs</span>
+                            <span class="tech-tag"><i class="fa-brands fa-git-alt"></i> Git & GitHub</span>
+                            <span class="tech-tag"><i class="fa-solid fa-bug"></i> Debugging & Optimization</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge"><i class="fa-solid fa-code"></i> Skill Set</span>
+                    <h2 class="section-title">Technical <span class="gradient-text">Proficiencies</span></h2>
+                    <p class="section-subtitle">A balanced toolkit spanning fullstack development, backend architectures, databases, and AI-assisted workflows.</p>
+                </div>
+
+                <!-- Skill Filter Tabs -->
+                <div class="skills-tab-nav" id="skill-filter-buttons">
+                    <button class="skill-tab active" data-filter="all">All Skills</button>
+                    <button class="skill-tab" data-filter="languages">Languages</button>
+                    <button class="skill-tab" data-filter="frameworks">Frameworks & APIs</button>
+                    <button class="skill-tab" data-filter="databases">Databases</button>
+                    <button class="skill-tab" data-filter="tools">AI & Dev Tools</button>
+                </div>
+
+                <div class="skills-grid" id="skills-container">
+                    <!-- Languages -->
+                    <div class="skill-card glass-card" data-category="languages">
+                        <div class="skill-card-top">
+                            <div class="skill-icon icon-java"><i class="fa-brands fa-java"></i></div>
+                            <div class="skill-info">
+                                <h4>Java</h4>
+                                <span class="skill-sub">Core Java & OOPs</span>
+                            </div>
+                            <span class="skill-level-badge">Advanced</span>
+                        </div>
+                        <div class="skill-bar-wrap">
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 88%;"></div>
+                            </div>
+                            <div class="skill-percent-label"><span>Proficiency</span><span>88%</span></div>
+                        </div>
+                        <p class="skill-detail-txt">Object-oriented design, multi-threading, collections, exception handling, and enterprise logic.</p>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="languages">
+                        <div class="skill-card-top">
+                            <div class="skill-icon icon-python"><i class="fa-brands fa-python"></i></div>
+                            <div class="skill-info">
+                                <h4>Python</h4>
+                                <span class="skill-sub">OOPs & Scripting</span>
+                            </div>
+                            <span class="skill-level-badge">Proficient</span>
+                        </div>
+                        <div class="skill-bar-wrap">
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 85%;"></div>
+                            </div>
+                            <div class="skill-percent-label"><span>Proficiency</span><span>85%</span></div>
+                        </div>
+                        <p class="skill-detail-txt">Object-oriented patterns, data structures, automation, and backend web service scripting.</p>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="languages">
+                        <div class="skill-card-top">
+                            <div class="skill-icon icon-js"><i class="fa-brands fa-js"></i></div>
+                            <div class="skill-info">
+                                <h4>JavaScript (ES6+)</h4>
+                                <span class="skill-sub">Frontend Logic</span>
+                            </div>
+                            <span class="skill-level-badge">Proficient</span>
+                        </div>
+                        <div class="skill-bar-wrap">
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 80%;"></div>
+                            </div>
+                            <div class="skill-percent-label"><span>Proficiency</span><span>80%</span></div>
+                        </div>
+                        <p class="skill-detail-txt">Async/await, DOM manipulation, interactive components, Fetch API, and modern standards.</p>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="languages">
+                        <div class="skill-card-top">
+                            <div class="skill-icon icon-html"><i class="fa-brands fa-html5"></i></div>
+                            <div class="skill-info">
+                                <h4>HTML5 & CSS3</h4>
+                                <span class="skill-sub">Responsive UI</span>
+                            </div>
+                            <span class="skill-level-badge">Expert</span>
+                        </div>
+                        <div class="skill-bar-wrap">
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 92%;"></div>
+                            </div>
+                            <div class="skill-percent-label"><span>Proficiency</span><span>92%</span></div>
+                        </div>
+                        <p class="skill-detail-txt">Semantic layouts, CSS Grid, Flexbox, custom variables, animations, and glassmorphism styling.</p>
+                    </div>
+
+                    <!-- Frameworks & APIs -->
+                    <div class="skill-card glass-card" data-category="frameworks">
+                        <div class="skill-card-top">
+                            <div class="skill-icon icon-spring"><i class="fa-solid fa-leaf"></i></div>
+                            <div class="skill-info">
+                                <h4>Spring Boot</h4>
+                                <span class="skill-sub">Enterprise Backend</span>
+                            </div>
+                            <span class="skill-level-badge">Advanced</span>
+                        </div>
+                        <div class="skill-bar-wrap">
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 86%;"></div>
+                            </div>
+                            <div class="skill-percent-label"><span>Proficiency</span><span>86%</span></div>
+                        </div>
+                        <p class="skill-detail-txt">Spring MVC, dependency injection, REST controllers, Hibernate/JPA, and microservices readiness.</p>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="frameworks">
+                        <div class="skill-card-top">
+                            <div class="skill-icon icon-fastapi"><i class="fa-solid fa-bolt"></i></div>
+                            <div class="skill-info">
+                                <h4>FastAPI</h4>
+                                <span class="skill-sub">Asynchronous APIs</span>
+                            </div>
+                            <span class="skill-level-badge">Proficient</span>
+                        </div>
+                        <div class="skill-bar-wrap">
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 84%;"></div>
+                            </div>
+                            <div class="skill-percent-label"><span>Proficiency</span><span>84%</span></div>
+                        </div>
+                        <p class="skill-detail-txt">High-performance async API development, Pydantic validation, OpenAPI docs, and clean endpoints.</p>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="frameworks">
+                        <div class="skill-card-top">
+                            <div class="skill-icon icon-react"><i class="fa-brands fa-react"></i></div>
+                            <div class="skill-info">
+                                <h4>React.js</h4>
+                                <span class="skill-sub">UI Components</span>
+                            </div>
+                            <span class="skill-level-badge">Proficient</span>
+                        </div>
+                        <div class="skill-bar-wrap">
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 82%;"></div>
+                            </div>
+                            <div class="skill-percent-label"><span>Proficiency</span><span>82%</span></div>
+                        </div>
+                        <p class="skill-detail-txt">Component-driven architecture, state hooks, props, responsive rendering, and client-side routing.</p>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="frameworks">
+                        <div class="skill-card-top">
+                            <div class="skill-icon icon-jdbc"><i class="fa-solid fa-link"></i></div>
+                            <div class="skill-info">
+                                <h4>JDBC & REST APIs</h4>
+                                <span class="skill-sub">Connectivity & Protocols</span>
+                            </div>
+                            <span class="skill-level-badge">Advanced</span>
+                        </div>
+                        <div class="skill-bar-wrap">
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 88%;"></div>
+                            </div>
+                            <div class="skill-percent-label"><span>Proficiency</span><span>88%</span></div>
+                        </div>
+                        <p class="skill-detail-txt">Prepared statements, transaction management, connection pooling, and RESTful endpoint design.</p>
+                    </div>
+
+                    <!-- Databases -->
+                    <div class="skill-card glass-card" data-category="databases">
+                        <div class="skill-card-top">
+                            <div class="skill-icon icon-mysql"><i class="fa-solid fa-database"></i></div>
+                            <div class="skill-info">
+                                <h4>MySQL</h4>
+                                <span class="skill-sub">Relational Database</span>
+                            </div>
+                            <span class="skill-level-badge">Advanced</span>
+                        </div>
+                        <div class="skill-bar-wrap">
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 88%;"></div>
+                            </div>
+                            <div class="skill-percent-label"><span>Proficiency</span><span>88%</span></div>
+                        </div>
+                        <p class="skill-detail-txt">Schema normalization, complex queries, joins, indexes, foreign keys, and CRUD transaction integrity.</p>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="databases">
+                        <div class="skill-card-top">
+                            <div class="skill-icon icon-postgres"><i class="fa-solid fa-server"></i></div>
+                            <div class="skill-info">
+                                <h4>PostgreSQL</h4>
+                                <span class="skill-sub">Relational DBMS</span>
+                            </div>
+                            <span class="skill-level-badge">Proficient</span>
+                        </div>
+                        <div class="skill-bar-wrap">
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 80%;"></div>
+                            </div>
+                            <div class="skill-percent-label"><span>Proficiency</span><span>80%</span></div>
+                        </div>
+                        <p class="skill-detail-txt">ACID compliance, relational integrity, data types, and enterprise data persistence.</p>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="databases">
+                        <div class="skill-card-top">
+                            <div class="skill-icon icon-mongo"><i class="fa-solid fa-cubes"></i></div>
+                            <div class="skill-info">
+                                <h4>MongoDB</h4>
+                                <span class="skill-sub">NoSQL Database</span>
+                            </div>
+                            <span class="skill-level-badge">Proficient</span>
+                        </div>
+                        <div class="skill-bar-wrap">
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 82%;"></div>
+                            </div>
+                            <div class="skill-percent-label"><span>Proficiency</span><span>82%</span></div>
+                        </div>
+                        <p class="skill-detail-txt">JSON/BSON document modeling, aggregation pipelines, collections, and FastAPI integration.</p>
+                    </div>
+
+                    <!-- AI & Specialized Tools -->
+                    <div class="skill-card glass-card" data-category="tools">
+                        <div class="skill-card-top">
+                            <div class="skill-icon icon-ai"><i class="fa-solid fa-microchip"></i></div>
+                            <div class="skill-info">
+                                <h4>AI & LLM Tools</h4>
+                                <span class="skill-sub">Claude, ChatGPT, Gemini</span>
+                            </div>
+                            <span class="skill-level-badge">Expert</span>
+                        </div>
+                        <div class="skill-bar-wrap">
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 94%;"></div>
+                            </div>
+                            <div class="skill-percent-label"><span>Proficiency</span><span>94%</span></div>
+                        </div>
+                        <p class="skill-detail-txt">Prompt engineering, AI-assisted code generation, automated debugging, and architectural acceleration.</p>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="tools">
+                        <div class="skill-card-top">
+                            <div class="skill-icon icon-ide"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                            <div class="skill-info">
+                                <h4>Modern Dev Tools</h4>
+                                <span class="skill-sub">Cursor, Antigravity, VS Code</span>
+                            </div>
+                            <span class="skill-level-badge">Expert</span>
+                        </div>
+                        <div class="skill-bar-wrap">
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 90%;"></div>
+                            </div>
+                            <div class="skill-percent-label"><span>Proficiency</span><span>90%</span></div>
+                        </div>
+                        <p class="skill-detail-txt">Agentic IDEs, context indexing, rapid prototyping, terminal automation, and productivity enhancements.</p>
+                    </div>
+
+                    <div class="skill-card glass-card" data-category="tools">
+                        <div class="skill-card-top">
+                            <div class="skill-icon icon-git"><i class="fa-brands fa-git-alt"></i></div>
+                            <div class="skill-info">
+                                <h4>Git, GitHub & Maven</h4>
+                                <span class="skill-sub">Version Control & Build</span>
+                            </div>
+                            <span class="skill-level-badge">Advanced</span>
+                        </div>
+                        <div class="skill-bar-wrap">
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" style="width: 88%;"></div>
+                            </div>
+                            <div class="skill-percent-label"><span>Proficiency</span><span>88%</span></div>
+                        </div>
+                        <p class="skill-detail-txt">Branching strategies, PR reviews, Maven dependency orchestration, build lifecycle, and repo management.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Showcase Section -->
+        <section id="projects" class="section section-darker">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge"><i class="fa-solid fa-laptop-code"></i> Portfolio Work</span>
+                    <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                    <p class="section-subtitle">A collection of full-stack platforms, database applications, and AI-enabled software solutions.</p>
+                </div>
+
+                <!-- Project Filters -->
+                <div class="project-filter-nav" id="project-filters">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                    <button class="filter-btn" data-filter="backend">Java & Backend</button>
+                    <button class="filter-btn" data-filter="ai-web">AI & Web</button>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: Automobile Consulting Website -->
+                    <div class="project-card glass-card" data-category="fullstack">
+                        <div class="project-img-wrapper">
+                            <img src="IMAGES/vijay_auto.jpg" alt="Automobile Consulting Website - Vijay Auto Consulting" class="project-img">
+                            <div class="project-badge">Featured Fullstack</div>
+                            <div class="project-overlay">
+                                <button class="btn btn-sm btn-primary modal-trigger" data-modal="modal-auto">
+                                    <i class="fa-solid fa-eye"></i> Quick View
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-tags">
+                                <span class="tag">React.js</span>
+                                <span class="tag">Spring Boot</span>
+                                <span class="tag">MySQL</span>
+                                <span class="tag">REST API</span>
+                            </div>
+                            <h3 class="project-title">Automobile Consulting Website</h3>
+                            <p class="project-subtitle-comp"><i class="fa-solid fa-car"></i> Built for <strong>Vijay Auto Consulting</strong></p>
+                            <p class="project-desc">
+                                Developed the official business web platform for Vijay Auto Consulting. Built robust RESTful APIs connected to a MySQL database to manage car listings, specifications, and customer inquiries with an intuitive UI.
+                            </p>
+                            <div class="project-features-list">
+                                <span><i class="fa-solid fa-check"></i> Dynamic Vehicle Inventory Management</span>
+                                <span><i class="fa-solid fa-check"></i> Customer Inquiry & Appointment Booking</span>
+                                <span><i class="fa-solid fa-check"></i> Spring Boot RESTful Controller Architecture</span>
+                            </div>
+                            <div class="project-footer">
+                                <button class="btn btn-outline btn-sm modal-trigger" data-modal="modal-auto">
+                                    <i class="fa-solid fa-circle-info"></i> Project Details
+                                </button>
+                                <a href="https://github.com/Siva4789" target="_blank" rel="noopener noreferrer" class="btn btn-glass btn-sm" title="View Source on GitHub">
+                                    <i class="fa-brands fa-github"></i> Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: Student Management System -->
+                    <div class="project-card glass-card" data-category="backend">
+                        <div class="project-img-wrapper">
+                            <img src="IMAGES/student_mgmt.jpg" alt="Student Management System" class="project-img">
+                            <div class="project-badge">Enterprise Java</div>
+                            <div class="project-overlay">
+                                <button class="btn btn-sm btn-primary modal-trigger" data-modal="modal-student">
+                                    <i class="fa-solid fa-eye"></i> Quick View
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-tags">
+                                <span class="tag">Java</span>
+                                <span class="tag">JDBC</span>
+                                <span class="tag">MySQL</span>
+                                <span class="tag">OOPs</span>
+                            </div>
+                            <h3 class="project-title">Student Management System</h3>
+                            <p class="project-subtitle-comp"><i class="fa-solid fa-award"></i> Presented at College Tech Symposium</p>
+                            <p class="project-desc">
+                                Comprehensive academic records platform performing end-to-end CRUD operations on student datasets. Implemented transactional database integrity and robust exception handling. Guided juniors on JDBC architectures.
+                            </p>
+                            <div class="project-features-list">
+                                <span><i class="fa-solid fa-check"></i> Complete CRUD on Student Database</span>
+                                <span><i class="fa-solid fa-check"></i> JDBC Prepared Statements & SQL Injection Defense</span>
+                                <span><i class="fa-solid fa-check"></i> Detailed Error Handling & Data Validation</span>
+                            </div>
+                            <div class="project-footer">
+                                <button class="btn btn-outline btn-sm modal-trigger" data-modal="modal-student">
+                                    <i class="fa-solid fa-circle-info"></i> Project Details
+                                </button>
+                                <a href="https://github.com/Siva4789" target="_blank" rel="noopener noreferrer" class="btn btn-glass btn-sm" title="View Source on GitHub">
+                                    <i class="fa-brands fa-github"></i> Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: VIDNOTESHUB -->
+                    <div class="project-card glass-card" data-category="ai-web">
+                        <div class="project-img-wrapper">
+                            <img src="IMAGES/VIDNOTES.jpeg" alt="VIDNOTESHUB - Video Summarizer" class="project-img">
+                            <div class="project-badge">AI / EdTech</div>
+                            <div class="project-overlay">
+                                <button class="btn btn-sm btn-primary modal-trigger" data-modal="modal-vidnotes">
+                                    <i class="fa-solid fa-eye"></i> Quick View
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">AI / NLP</span>
+                                <span class="tag">Web</span>
+                                <span class="tag">Summarization</span>
+                            </div>
+                            <h3 class="project-title">VIDNOTESHUB</h3>
+                            <p class="project-subtitle-comp"><i class="fa-solid fa-wand-magic-sparkles"></i> AI Video Summarizer & Note Generator</p>
+                            <p class="project-desc">
+                                Innovative study tool that transforms lengthy educational and video lecture streams into organized, searchable summary notes. Utilizes Natural Language Processing algorithms for rapid review.
+                            </p>
+                            <div class="project-features-list">
+                                <span><i class="fa-solid fa-check"></i> Automated Audio-to-Text Transcription</span>
+                                <span><i class="fa-solid fa-check"></i> Key Concept & Timestamp Extraction</span>
+                                <span><i class="fa-solid fa-check"></i> Exportable Structured Notes</span>
+                            </div>
+                            <div class="project-footer">
+                                <button class="btn btn-outline btn-sm modal-trigger" data-modal="modal-vidnotes">
+                                    <i class="fa-solid fa-circle-info"></i> Project Details
+                                </button>
+                                <a href="https://github.com/Siva4789" target="_blank" rel="noopener noreferrer" class="btn btn-glass btn-sm" title="View Source on GitHub">
+                                    <i class="fa-brands fa-github"></i> Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: Dark Patterns Protection -->
+                    <div class="project-card glass-card" data-category="ai-web">
+                        <div class="project-img-wrapper">
+                            <img src="IMAGES/Dark patterns.png" alt="Dark Patterns Detection & Transparency Timer" class="project-img">
+                            <div class="project-badge">Ethical UX & Web</div>
+                            <div class="project-overlay">
+                                <button class="btn btn-sm btn-primary modal-trigger" data-modal="modal-darkpatterns">
+                                    <i class="fa-solid fa-eye"></i> Quick View
+                                </button>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-tags">
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Web Extension</span>
+                                <span class="tag">UX Audit</span>
+                                <span class="tag">Transparency</span>
+                            </div>
+                            <h3 class="project-title">Dark Patterns UX Shield</h3>
+                            <p class="project-subtitle-comp"><i class="fa-solid fa-shield-halved"></i> Anti-Deceptive UI Detection System</p>
+                            <p class="project-desc">
+                                Addresses deceptive e-commerce and UI practices by providing a transparent countdown auditing tool. Highlights deceptive urgency timers and restores consumer trust and clarity online.
+                            </p>
+                            <div class="project-features-list">
+                                <span><i class="fa-solid fa-check"></i> Real-time Fake Urgency Timer Audit</span>
+                                <span><i class="fa-solid fa-check"></i> User Alerting & Ethical UI Guidelines</span>
+                                <span><i class="fa-solid fa-check"></i> Non-disruptive Workflow Integration</span>
+                            </div>
+                            <div class="project-footer">
+                                <button class="btn btn-outline btn-sm modal-trigger" data-modal="modal-darkpatterns">
+                                    <i class="fa-solid fa-circle-info"></i> Project Details
+                                </button>
+                                <a href="https://github.com/Siva4789" target="_blank" rel="noopener noreferrer" class="btn btn-glass btn-sm" title="View Source on GitHub">
+                                    <i class="fa-brands fa-github"></i> Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge"><i class="fa-solid fa-award"></i> Verification</span>
+                    <h2 class="section-title">Certifications & <span class="gradient-text">Credentials</span></h2>
+                    <p class="section-subtitle">Industry-recognized assessments in core languages, database connectivity, and modern computing.</p>
+                </div>
+
+                <div class="certs-grid">
+                    <div class="cert-card glass-card">
+                        <div class="cert-header">
+                            <div class="cert-icon icon-nptel"><i class="fa-solid fa-certificate"></i></div>
+                            <div class="cert-meta">
+                                <span class="cert-issuer">NPTEL</span>
+                                <h4>Python Programming</h4>
+                            </div>
+                        </div>
+                        <p class="cert-desc">National Programme on Technology Enhanced Learning certification in comprehensive Python syntax, data structures, algorithmic design, and problem solving.</p>
+                        <div class="cert-footer">
+                            <span class="cert-badge"><i class="fa-solid fa-circle-check"></i> Verified</span>
+                            <span class="cert-topic">Core Python</span>
+                        </div>
+                    </div>
+
+                    <div class="cert-card glass-card">
+                        <div class="cert-header">
+                            <div class="cert-icon icon-infosys"><i class="fa-solid fa-building-columns"></i></div>
+                            <div class="cert-meta">
+                                <span class="cert-issuer">INFOSYS Springboard</span>
+                                <h4>Java Enterprise Fundamentals</h4>
+                            </div>
+                        </div>
+                        <p class="cert-desc">Certified in Core Java, Object-Oriented Principles, exception management, inheritance, and foundational backend programming practices.</p>
+                        <div class="cert-footer">
+                            <span class="cert-badge"><i class="fa-solid fa-circle-check"></i> Verified</span>
+                            <span class="cert-topic">Java & OOPs</span>
+                        </div>
+                    </div>
+
+                    <div class="cert-card glass-card">
+                        <div class="cert-header">
+                            <div class="cert-icon icon-linkedin"><i class="fa-brands fa-linkedin"></i></div>
+                            <div class="cert-meta">
+                                <span class="cert-issuer">LinkedIn Learning</span>
+                                <h4>JDBC & SQL Connectivity</h4>
+                            </div>
+                        </div>
+                        <p class="cert-desc">Credential in Java Database Connectivity architecture, driver management, SQL transactions, prepared statements, and result-set data mapping.</p>
+                        <div class="cert-footer">
+                            <span class="cert-badge"><i class="fa-solid fa-circle-check"></i> Verified</span>
+                            <span class="cert-topic">JDBC & SQL</span>
+                        </div>
+                    </div>
+
+                    <div class="cert-card glass-card">
+                        <div class="cert-header">
+                            <div class="cert-icon icon-darkpatterns"><i class="fa-solid fa-shield-virus"></i></div>
+                            <div class="cert-meta">
+                                <span class="cert-issuer">Ethical UX Research</span>
+                                <h4>Dark Patterns & UX Ethics</h4>
+                            </div>
+                        </div>
+                        <p class="cert-desc">Certified credential in identifying, mitigating, and documenting deceptive user interface design patterns in consumer web platforms (2024).</p>
+                        <div class="cert-footer">
+                            <span class="cert-badge"><i class="fa-solid fa-circle-check"></i> 2024 Verified</span>
+                            <span class="cert-topic">UX Ethics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section section-darker">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-badge"><i class="fa-solid fa-paper-plane"></i> Get In Touch</span>
+                    <h2 class="section-title">Let's Connect & <span class="gradient-text">Build Together</span></h2>
+                    <p class="section-subtitle">Whether you have an internship/job opportunity, a project to collaborate on, or just want to say hi, feel free to reach out!</p>
+                </div>
+
+                <div class="contact-layout">
+                    <!-- Left: Contact Details -->
+                    <div class="contact-info-cards">
+                        <div class="contact-card glass-card">
+                            <div class="contact-card-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="contact-card-text">
+                                <span class="contact-label">Email Address</span>
+                                <a href="mailto:siva03286@gmail.com" class="contact-val">siva03286@gmail.com</a>
+                            </div>
+                            <button class="copy-btn" id="copy-email-btn" title="Copy email address" onclick="copyToClipboard('siva03286@gmail.com', 'Email copied!')">
+                                <i class="fa-regular fa-copy"></i>
+                            </button>
+                        </div>
+
+                        <div class="contact-card glass-card">
+                            <div class="contact-card-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="contact-card-text">
+                                <span class="contact-label">Phone & WhatsApp</span>
+                                <a href="tel:+919655247872" class="contact-val">+91 9655247872</a>
+                            </div>
+                            <a href="https://wa.me/919655247872" target="_blank" rel="noopener noreferrer" class="chat-direct-btn" title="Chat on WhatsApp">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </a>
+                        </div>
+
+                        <div class="contact-card glass-card">
+                            <div class="contact-card-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="contact-card-text">
+                                <span class="contact-label">Location</span>
+                                <span class="contact-val">Salem, Tamil Nadu, India</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-card glass-card">
+                            <div class="contact-card-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                            <div class="contact-card-text">
+                                <span class="contact-label">LinkedIn</span>
+                                <a href="https://www.linkedin.com/in/siva-p-s04" target="_blank" rel="noopener noreferrer" class="contact-val">linkedin.com/in/siva-p-s04</a>
+                            </div>
+                            <a href="https://www.linkedin.com/in/siva-p-s04" target="_blank" rel="noopener noreferrer" class="chat-direct-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+
+                        <div class="contact-card glass-card">
+                            <div class="contact-card-icon"><i class="fa-brands fa-github"></i></div>
+                            <div class="contact-card-text">
+                                <span class="contact-label">GitHub Repository</span>
+                                <a href="https://github.com/Siva4789" target="_blank" rel="noopener noreferrer" class="contact-val">github.com/Siva4789</a>
+                            </div>
+                            <a href="https://github.com/Siva4789" target="_blank" rel="noopener noreferrer" class="chat-direct-btn">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </a>
+                        </div>
+
+                        <!-- Resume Download Big Card -->
+                        <div class="resume-download-banner glass-card">
+                            <div class="resume-banner-content">
+                                <h4><i class="fa-solid fa-file-pdf"></i> Download Official Resume</h4>
+                                <p>Get a complete copy of my resume with education, skills & project details.</p>
+                            </div>
+                            <a href="SIVA P RESUME.pdf" download="Siva_P_Resume.pdf" class="btn btn-primary" target="_blank">
+                                <i class="fa-solid fa-download"></i> Download PDF
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Right: Contact Form -->
+                    <div class="contact-form-card glass-card">
+                        <h3>Send a Direct Message</h3>
+                        <p class="form-intro">Fill in the details below and I'll get back to you promptly.</p>
+                        
+                        <form id="portfolio-contact-form">
+                            <div class="form-group">
+                                <label for="form-name"><i class="fa-regular fa-user"></i> Your Name *</label>
+                                <input type="text" id="form-name" placeholder="e.g. Alex Johnson" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-email"><i class="fa-regular fa-envelope"></i> Your Email *</label>
+                                <input type="email" id="form-email" placeholder="e.g. alex@company.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-subject"><i class="fa-solid fa-tag"></i> Subject *</label>
+                                <input type="text" id="form-subject" placeholder="e.g. Fullstack Developer Role / Project Inquiry" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-message"><i class="fa-regular fa-message"></i> Message *</label>
+                                <textarea id="form-message" rows="5" placeholder="Hi Siva, I would like to discuss..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                                <i class="fa-solid fa-paper-plane"></i>
+                                <span>Send Message</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <a href="#home" class="footer-logo">
+                    <span>Siva<span class="logo-accent">.dev</span></span>
+                </a>
+                <p class="footer-bio">AI Full Stack Developer passionate about clean code, high-performance APIs, and user-centric web applications.</p>
+            </div>
+
+            <div class="footer-links">
+                <h5>Navigation</h5>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-socials">
+                <h5>Connect</h5>
+                <div class="footer-social-icons">
+                    <a href="https://github.com/Siva4789" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/siva-p-s04" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="mailto:siva03286@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="tel:+919655247872" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+                </div>
+                <div class="footer-location">
+                    <i class="fa-solid fa-location-dot"></i> Salem, Tamil Nadu, India
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container footer-bottom-flex">
+                <p>&copy; 2026 <strong>Siva P</strong>. All rights reserved.</p>
+                <p class="footer-credit">Built with HTML5, Vanilla CSS3 & JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive AI Assistant / Chatbot Widget -->
+    <div id="chatbot-container" class="chatbot-wrapper">
+        <div id="chatbot-window" class="chatbot-window">
+            <div class="chatbot-header">
+                <div class="chatbot-header-info">
+                    <div class="chatbot-avatar">
+                        <img src="IMAGES/siva.jpg" alt="Siva Assistant">
+                        <span class="bot-online-indicator"></span>
+                    </div>
+                    <div>
+                        <h4>Siva AI Assistant</h4>
+                        <span class="bot-status-text">Online | Instant answers</span>
+                    </div>
+                </div>
+                <button class="chatbot-close-btn" id="chatbot-close" onclick="toggleChat()" aria-label="Close chat">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <div class="chatbot-messages" id="chatbot-messages">
+                <div class="chat-msg bot-msg">
+                    <div class="msg-bubble">
+                        Hello! 👋 I'm Siva's AI Assistant. How can I help you today? You can ask about my skills, Springreen internship, projects, or contact info!
+                    </div>
+                    <span class="msg-time">Just now</span>
+                </div>
+            </div>
+
+            <!-- Quick Suggestions Chips -->
+            <div class="chat-chips-row" id="chat-chips">
+                <button class="chip" onclick="sendChipMessage('Tell me about your background')">👤 Background</button>
+                <button class="chip" onclick="sendChipMessage('What are your main technical skills?')">💻 Tech Skills</button>
+                <button class="chip" onclick="sendChipMessage('Tell me about your Springreen internship')">🏢 Internship</button>
+                <button class="chip" onclick="sendChipMessage('What projects have you built?')">🚀 Projects</button>
+                <button class="chip" onclick="sendChipMessage('How can I contact Siva?')">📬 Contact Info</button>
+            </div>
+
+            <div class="chatbot-input-bar">
+                <input type="text" id="chat-input" placeholder="Type your message..." onkeypress="handleKeyPress(event)" autocomplete="off">
+                <button id="chat-send-btn" onclick="sendMessage()" aria-label="Send message">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Floating Chat Trigger Button -->
+        <button id="chatbot-toggle-btn" class="chatbot-trigger-btn" onclick="toggleChat()" aria-label="Open Chat">
+            <span class="pulse-ring"></span>
+            <i class="fa-solid fa-comment-dots"></i>
+            <span class="trigger-label">Chat with Siva</span>
+        </button>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Toast Notification Container -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Project Modals -->
+    <!-- Modal 1: Automobile Consulting Website -->
+    <div class="modal-backdrop" id="modal-auto">
+        <div class="modal-box glass-card">
+            <button class="modal-close-btn" onclick="closeModal('modal-auto')">&times;</button>
+            <div class="modal-header">
+                <h3>Automobile Consulting Website</h3>
+                <span class="modal-subtitle">Full Stack Web Solution for Vijay Auto Consulting</span>
+            </div>
+            <div class="modal-img-wrap">
+                <img src="IMAGES/vijay_auto.jpg" alt="Vijay Auto Consulting Website UI">
+            </div>
+            <div class="modal-body">
+                <h4>Project Highlights:</h4>
+                <p>Designed and deployed an end-to-end web platform for Vijay Auto Consulting to streamline their automobile inventory management and customer interactions.</p>
+                <ul class="modal-features">
+                    <li><strong>Frontend:</strong> Interactive React.js interface with real-time model searching, pricing filters, and inquiry submission forms.</li>
+                    <li><strong>Backend:</strong> Spring Boot RESTful API layer handling CRUD operations, inventory updates, and inquiry routing.</li>
+                    <li><strong>Database:</strong> Normalized MySQL schema ensuring ACID compliance, relational integrity, and fast query execution.</li>
+                    <li><strong>Key Result:</strong> Enabled customers to browse vehicles and schedule consulting appointments effortlessly.</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <a href="https://github.com/Siva4789" target="_blank" class="btn btn-primary btn-sm"><i class="fa-brands fa-github"></i> View GitHub</a>
+                <button class="btn btn-outline btn-sm" onclick="closeModal('modal-auto')">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2: Student Management System -->
+    <div class="modal-backdrop" id="modal-student">
+        <div class="modal-box glass-card">
+            <button class="modal-close-btn" onclick="closeModal('modal-student')">&times;</button>
+            <div class="modal-header">
+                <h3>Student Management System</h3>
+                <span class="modal-subtitle">Java, JDBC & MySQL Enterprise Application</span>
+            </div>
+            <div class="modal-img-wrap">
+                <img src="IMAGES/student_mgmt.jpg" alt="Student Management System UI">
+            </div>
+            <div class="modal-body">
+                <h4>Project Highlights:</h4>
+                <p>An enterprise-grade academic record management software developed with Core Java and JDBC.</p>
+                <ul class="modal-features">
+                    <li><strong>CRUD Operations:</strong> Add, update, search, delete, and view student academic information.</li>
+                    <li><strong>Database Connection:</strong> Configured JDBC driver with prepared statements to secure against SQL injection attacks.</li>
+                    <li><strong>Exception Handling:</strong> Custom exception classes ensuring robust failure recovery during database disconnections or invalid data inputs.</li>
+                    <li><strong>Community & Mentorship:</strong> Presented at a college technical symposium and conducted mentorship sessions for junior students.</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <a href="https://github.com/Siva4789" target="_blank" class="btn btn-primary btn-sm"><i class="fa-brands fa-github"></i> View GitHub</a>
+                <button class="btn btn-outline btn-sm" onclick="closeModal('modal-student')">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3: VIDNOTESHUB -->
+    <div class="modal-backdrop" id="modal-vidnotes">
+        <div class="modal-box glass-card">
+            <button class="modal-close-btn" onclick="closeModal('modal-vidnotes')">&times;</button>
+            <div class="modal-header">
+                <h3>VIDNOTESHUB</h3>
+                <span class="modal-subtitle">AI-Powered Video Summarizer & Note Generator</span>
+            </div>
+            <div class="modal-img-wrap">
+                <img src="IMAGES/VIDNOTES.jpeg" alt="VIDNOTESHUB Project">
+            </div>
+            <div class="modal-body">
+                <h4>Project Highlights:</h4>
+                <p>An educational assistant platform designed to optimize study workflows from video content.</p>
+                <ul class="modal-features">
+                    <li><strong>NLP Processing:</strong> Extracts transcript text from video inputs and generates concise key-point summaries.</li>
+                    <li><strong>Study Efficiency:</strong> Helps students save up to 70% of video lecture viewing time through automated concept synthesis.</li>
+                    <li><strong>Note Organization:</strong> Provides categorized bullet points and timestamp references.</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <a href="https://github.com/Siva4789" target="_blank" class="btn btn-primary btn-sm"><i class="fa-brands fa-github"></i> View GitHub</a>
+                <button class="btn btn-outline btn-sm" onclick="closeModal('modal-vidnotes')">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4: Dark Patterns -->
+    <div class="modal-backdrop" id="modal-darkpatterns">
+        <div class="modal-box glass-card">
+            <button class="modal-close-btn" onclick="closeModal('modal-darkpatterns')">&times;</button>
+            <div class="modal-header">
+                <h3>Dark Patterns UX Shield</h3>
+                <span class="modal-subtitle">Ethical UX & Transparency Tool</span>
+            </div>
+            <div class="modal-img-wrap">
+                <img src="IMAGES/Dark patterns.png" alt="Dark Patterns Project">
+            </div>
+            <div class="modal-body">
+                <h4>Project Highlights:</h4>
+                <p>A web integrity tool to counteract manipulative and deceptive design patterns in consumer web platforms.</p>
+                <ul class="modal-features">
+                    <li><strong>Deceptive Urgency Detection:</strong> Detects artificial countdown timers used in e-commerce sites to create false pressure.</li>
+                    <li><strong>Transparent Counter:</strong> Overrides hidden timer states with true countdown timers for transparent consumer decision-making.</li>
+                    <li><strong>Certified:</strong> Backed by research in ethical UI/UX compliance (2024).</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <a href="https://github.com/Siva4789" target="_blank" class="btn btn-primary btn-sm"><i class="fa-brands fa-github"></i> View GitHub</a>
+                <button class="btn btn-outline btn-sm" onclick="closeModal('modal-darkpatterns')">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
