@@ -55,6 +55,57 @@
             0%, 100% { opacity: 1; }
             50% { opacity: 0.4; }
         }
+
+        /* Glowing Stats Counter Row Styles */
+        .hero-stats-row {
+            display: flex;
+            gap: 24px;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+        .hero-stat-card {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 12px 20px;
+            background: var(--bg-card, rgba(255, 255, 255, 0.03));
+            border: 1px solid var(--border-color, rgba(255, 255, 255, 0.08));
+            border-radius: 14px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .hero-stat-card:hover {
+            border-color: var(--primary, #6366f1);
+            box-shadow: 0 0 20px rgba(99, 102, 241, 0.25);
+            transform: translateY(-3px);
+        }
+        .hero-stat-icon {
+            width: 42px;
+            height: 42px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgba(99, 102, 241, 0.12);
+            color: var(--primary, #6366f1);
+            border-radius: 10px;
+            font-size: 1.1rem;
+        }
+        .hero-stat-info {
+            display: flex;
+            flex-direction: column;
+        }
+        .hero-stat-number {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--text-heading, #ffffff);
+            font-family: 'Outfit', sans-serif;
+        }
+        .hero-stat-label {
+            font-size: 0.8rem;
+            color: var(--text-muted, #94a3b8);
+            font-weight: 500;
+        }
     </style>
 </head>
 <body>
@@ -140,32 +191,34 @@
                             <span>Explore Projects</span>
                             <i class="fa-solid fa-arrow-right"></i>
                         </a>
-                        <a href="SIVA P RESUME.pdf" download="Siva_P_Resume.pdf" class="btn btn-glass" target="_blank">
-                            <i class="fa-solid fa-download"></i>
+                        <a href="SIVA P RESUME.pdf" download="Siva_P_Resume.pdf" class="btn btn-outline" target="_blank">
+                            <i class="fa-solid fa-file-arrow-down"></i>
                             <span>Download Resume</span>
-                        </a>
-                        <a href="#contact" class="btn btn-outline">
-                            <i class="fa-solid fa-paper-plane"></i>
-                            <span>Get in Touch</span>
                         </a>
                     </div>
 
-                    <!-- Social Icons Strip -->
-                    <div class="hero-socials animate-fade-in">
-                        <span class="socials-label">Connect:</span>
-                        <a href="https://github.com/Siva4789" target="_blank" rel="noopener noreferrer" class="social-icon" title="GitHub Profile">
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/siva-p-s04" target="_blank" rel="noopener noreferrer" class="social-icon" title="LinkedIn Profile">
-                            <i class="fa-brands fa-linkedin-in"></i>
-                        </a>
-                        <a href="mailto:siva03286@gmail.com" class="social-icon" title="Send Email">
-                            <i class="fa-solid fa-envelope"></i>
-                        </a>
-                        <a href="tel:+919655247872" class="social-icon" title="Call Phone">
-                            <i class="fa-solid fa-phone"></i>
-                        </a>
+                    <!-- Glowing Stats Counter Row -->
+                    <div class="hero-stats-row animate-fade-in">
+                        <div class="hero-stat-card">
+                            <div class="hero-stat-icon">
+                                <i class="fa-solid fa-clock-rotate-left"></i>
+                            </div>
+                            <div class="hero-stat-info">
+                                <span class="hero-stat-number">2+ Years</span>
+                                <span class="hero-stat-label">Experience</span>
+                            </div>
+                        </div>
+                        <div class="hero-stat-card">
+                            <div class="hero-stat-icon">
+                                <i class="fa-solid fa-diagram-project"></i>
+                            </div>
+                            <div class="hero-stat-info">
+                                <span class="hero-stat-number">10+</span>
+                                <span class="hero-stat-label">Projects Completed</span>
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </section>
